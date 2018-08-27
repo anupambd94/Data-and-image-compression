@@ -1,0 +1,1 @@
+What you need is a non-blocking raw input, if you don't want to use threads there is a simple solution like this one below where he is doing a timeout of 20 ms and then raise and exception if the user doesn't press a key, if he does then the class returns the key pressed.
